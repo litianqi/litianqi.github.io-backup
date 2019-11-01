@@ -1,1 +1,1 @@
-# litianqi.github.io
+A blog about game programming.
