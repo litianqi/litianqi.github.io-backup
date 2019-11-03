@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Tianqi Li</title>
+    <link>https://litianqi.github.io/posts/</link>
+    <description>Recent content in Posts on Tianqi Li</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Nov 2019 10:42:13 +0800</lastBuildDate>
+    
+	<atom:link href="https://litianqi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rendering Workflow of Slate</title>
+      <link>https://litianqi.github.io/2019/11/01/rendering-workflow-of-slate/</link>
+      <pubDate>Fri, 01 Nov 2019 10:42:13 +0800</pubDate>
+      
+      <guid>https://litianqi.github.io/2019/11/01/rendering-workflow-of-slate/</guid>
+      <description>The rendering of Slate happens in FSlateApplication::PrivateDrawWindows. It first iterates every visible window to collect nessary rendering information used for rendering. Then consumes these information by invoking corresponding platform&amp;rsquo;s graphics API (D3D, OpenGL, etc.) to do the rendering job.
+Collecting A window (SWindow) in UE4&amp;rsquo;s terminology is the top-level widget of game, usually one game has only one window, every widget we created at runtime is just a child of it.</description>
+    </item>
+    
+  </channel>
+</rss>

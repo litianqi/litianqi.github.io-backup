@@ -1,0 +1,21 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Tianqi Li</title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://litianqi.github.io/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Fri, 01 Nov 2019 10:42:13 CST</updated>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://litianqi.github.io/posts/</link>
+      <pubDate>Fri, 01 Nov 2019 10:42:13 CST</pubDate>
+      
+      <guid>https://litianqi.github.io/posts/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
