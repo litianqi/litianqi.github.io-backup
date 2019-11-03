@@ -3,15 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://litianqi.github.io/categories/</loc>
+    <loc>https://litianqi.github.io/posts/</loc>
+    <lastmod>2019-11-01T10:42:13+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://litianqi.github.io/2019/11/01/my-first-post/</loc>
+    <lastmod>2019-11-01T10:42:13+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://litianqi.github.io/tags/</loc>
+    <lastmod>2019-11-01T10:42:13+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://litianqi.github.io/</loc>
+    <lastmod>2019-11-01T10:42:13+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://litianqi.github.io/tags/ue4-slate/</loc>
+    <lastmod>2019-11-01T10:42:13+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://litianqi.github.io/categories/</loc>
   </url>
   
 </urlset>

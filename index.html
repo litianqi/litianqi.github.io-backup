@@ -49,6 +49,10 @@
 	
 	
 		
+	<meta property="og:image" content="https://litianqi.github.io/"/>
+	<meta property="twitter:image" content="https://litianqi.github.io/"/>
+	<meta itemprop="image" content="https://litianqi.github.io/">
+		
 	
     
     
@@ -76,7 +80,7 @@
         
             panel-cover
         
-        " >
+        "  style="background-image: url(/images/cover.jpg)" >
     <div class="panel-main">
         <div class="panel-main__inner panel-inverted">
             <div class="panel-main__content"> 
@@ -156,7 +160,7 @@
         }
     </style>
 
-    <header class="panel-cover panel-cover--collapsed" style="background-image: url()">
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/cover.jpg)">
         <div class="panel-main">
             <div class="panel-main__inner panel-inverted">
                 <div class="panel-main__content"> 
@@ -229,6 +233,32 @@
             <div class="content-wrapper__inner">
                 <section id="main">
                     <div>
+                        
+                            
+                                <article class="post">
+<header>
+<h2 class="post-list__post-title"><a class="hvr-bounce-to-right" href="https://litianqi.github.io/2019/11/01/my-first-post/">Rendering Workflow of Slate </a> </h2>
+</header>
+<div class="excerpt">
+    
+        The rendering of Slate happens in FSlateApplication::PrivateDrawWindows. It first iterates every visible window to collect nessary rendering information used for rendering. Then consumes these information by invoking corresponding platform&rsquo;s graphics API (D3D, OpenGL, etc.) to do the rendering job.
+Collecting A window (SWindow) in UE4&rsquo;s terminology is the top-level widget of game, usually one game has only one window, every widget we created at runtime is just a child of it.
+    
+</div>
+<div class="post-list__meta">Nov 1, 2019 • Read in 2 Min
+
+    • on tags:
+    
+        
+            <a class="post-list__meta--tags" href="/tags/ue4-slate">ue4, slate</a>
+        
+    
+
+</div>
+<hr class="post-list__divider" />
+</article>
+
+                            
                         
                     </div>
                     <nav class="pagination" role="navigation">
