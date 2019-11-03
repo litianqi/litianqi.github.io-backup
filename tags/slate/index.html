@@ -1,7 +1,6 @@
     <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
-	<meta name="generator" content="Hugo 0.59.0" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="theme-color" content="#000"/>
     
@@ -32,12 +31,12 @@
     <link href="https://litianqi.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Tianqi Li" />
 	
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Tianqi Li">
-	<meta property="og:url" content="https://litianqi.github.io/">
+	<meta property="og:title" content="slate">
+	<meta property="og:url" content="https://litianqi.github.io/tags/slate/">
 	<meta property="og:site_name" content="Tianqi Li">
     <meta name="twitter:site" content="Tianqi Li">
-	<meta itemprop="name" content="Tianqi Li">
-	<meta name="twitter:title" content="Tianqi Li">
+	<meta itemprop="name" content="slate">
+	<meta name="twitter:title" content="slate">
 	<meta name="twitter:card" content="summary">
     <meta name="twitter:creator" content="@kevcui">
     <meta name="Description" content="Title: Tianqi Li; Author Tianqi Li">
@@ -72,13 +71,13 @@
             <i class="icon icon-list btn-mobile-menu__icon"></i>
             <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
             
-                <a class="mobile-top-right-button" href="https://litianqi.github.io/"  title="Tianqi Li homepage">Tianqi Li</a>
+                <a class="mobile-top-right-button" href="/#blog">Other Posts</a>
             
     </span>
     <header class="
         
         
-            panel-cover
+            panel-cover panel-cover--collapsed
         
         "  style="background-image: url(/images/cover.jpg)" >
     <div class="panel-main">
@@ -141,7 +140,7 @@
                 </div>
 
                 
-                    <p class=""><a title="my blog" class="main-button blog-button" href="/#blog">blog</a></p>
+                    <p class=""><a class="main-button" href="/#blog">blog</a></p>
                 
                 
 
@@ -219,7 +218,7 @@
                         </nav>
                     </div>
                     
-                        <p class=""><a title="my blog" class="main-button blog-button" href="/#blog">blog</a></p>
+                        <p><a class="main-button" href="/#blog">blog</a></p>
                     
                     
                 </div>
@@ -231,56 +230,21 @@
 
         <div class="content-wrapper">
             <div class="content-wrapper__inner">
-                <section id="main">
-                    <div>
-                        
-                            
-                                <article class="post">
-<header>
-<h2 class="post-list__post-title"><a class="hvr-bounce-to-right" href="https://litianqi.github.io/2019/11/01/rendering-workflow-of-slate/">Rendering Workflow of Slate </a> </h2>
-</header>
-<div class="excerpt">
-    
-        The rendering of Slate happens in FSlateApplication::PrivateDrawWindows. It first iterates every visible window to collect nessary rendering information used for rendering. Then consumes these information by invoking corresponding platform&rsquo;s graphics API (D3D, OpenGL, etc.) to do the rendering job.
-Collecting A window (SWindow) in UE4&rsquo;s terminology is the top-level widget of game, usually one game has only one window, every widget we created at runtime is just a child of it.
-    
-</div>
-<div class="post-list__meta">Nov 1, 2019 • Read in 2 Min
-
-    • on tags:
-    
-        
-            <a class="post-list__meta--tags" href="/tags/ue4">ue4,</a>
-        
-    
-        
-            <a class="post-list__meta--tags" href="/tags/slate">slate</a>
-        
-    
-
-</div>
-<hr class="post-list__divider" />
-</article>
-
-                            
-                        
-                    </div>
-                    <nav class="pagination" role="navigation">
-
-
-
-</nav>
-
-                </section>
-                <footer class="footer">
-    <span class="footer__copyright">
-        &copy; 2019 Tianqi Li ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
-    </span>
-</footer>
-
+                
+                <h2>2019</h2>
+                <ul id="list">
+                    
+                    <li>
+                        <a href="https://litianqi.github.io/2019/11/01/rendering-workflow-of-slate/">Rendering Workflow of Slate </a>
+                        <div class="meta">Fri, Nov 1, 2019</div>
+                    </li>
+                    
+                </ul>
+                
             </div>
         </div>
-        <script src="https://litianqi.github.io/js/umbrella.min.js"></script>
+    </body>
+    <script src="https://litianqi.github.io/js/umbrella.min.js"></script>
 
 <script src="https://litianqi.github.io/js/main.min.js">></script>
 <script>
@@ -298,5 +262,4 @@ Collecting A window (SWindow) in UE4&rsquo;s terminology is the top-level widget
 
 
 
-    </body>
 </html>
