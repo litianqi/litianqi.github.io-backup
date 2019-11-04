@@ -6,10 +6,20 @@
     <description>Recent content in ue4 on Tianqi Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Nov 2019 10:42:13 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2019 23:44:26 +0800</lastBuildDate>
     
 	<atom:link href="https://litianqi.github.io/tags/ue4/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ue4 Learning Resources</title>
+      <link>https://litianqi.github.io/2019/11/04/ue4-learning-resources/</link>
+      <pubDate>Mon, 04 Nov 2019 23:44:26 +0800</pubDate>
+      
+      <guid>https://litianqi.github.io/2019/11/04/ue4-learning-resources/</guid>
+      <description> A collection of in-depth UE4 learning resources.
+Garbage Collection  Garbage Collection Overview Garbage Collection &amp;amp; Dynamic Memory Allocation  Reflection  Unreal Property System (Reflection)  Collision  Collision Filtering  Replication  Sequence Diagram of Networking inside the Character Movement Component class  Gameplay Ability System  Repo to gather all Gameplay Ability System content for UE4  Misc  Actor Lifecycle Logs, Printing Messages To Yourself During Runtime  </description>
+    </item>
     
     <item>
       <title>Rendering Workflow of Slate</title>
