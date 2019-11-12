@@ -41,16 +41,16 @@
     <meta name="twitter:creator" content="@kevcui">
     <meta name="Description" content="Title: Tianqi Li; Author Tianqi Li">
 	
-    <meta name="description" content="If you want to transist camera back to player seamlessly after or during level sequence, you can call SetViewTargetWithBlend to do that, with player as the new target. Just make sure you put the following settings right:
+    <meta name="description" content="If you want to transit camera back to player seamlessly after or during level sequence, you can call SetViewTargetWithBlend to do that, with a player as new target. Just make sure you put the following settings right:
  Tracks of camera cuts and camera actor are set to keep state when finished, otherwise camera will roll back to initial state.
  If you are switching camera in level sequence (not after), make sure to crop length of camera cuts so that it ends earlier than SetViewTargetWithBlend.">
-    <meta name="og:description" content="If you want to transist camera back to player seamlessly after or during level sequence, you can call SetViewTargetWithBlend to do that, with player as the new target. Just make sure you put the following settings right:
+    <meta name="og:description" content="If you want to transit camera back to player seamlessly after or during level sequence, you can call SetViewTargetWithBlend to do that, with a player as new target. Just make sure you put the following settings right:
  Tracks of camera cuts and camera actor are set to keep state when finished, otherwise camera will roll back to initial state.
  If you are switching camera in level sequence (not after), make sure to crop length of camera cuts so that it ends earlier than SetViewTargetWithBlend.">
-    <meta name="twitter:description" content="If you want to transist camera back to player seamlessly after or during level sequence, you can call SetViewTargetWithBlend to do that, with player as the new target. Just make sure you put the following settings right:
+    <meta name="twitter:description" content="If you want to transit camera back to player seamlessly after or during level sequence, you can call SetViewTargetWithBlend to do that, with a player as new target. Just make sure you put the following settings right:
  Tracks of camera cuts and camera actor are set to keep state when finished, otherwise camera will roll back to initial state.
  If you are switching camera in level sequence (not after), make sure to crop length of camera cuts so that it ends earlier than SetViewTargetWithBlend.">
-    <meta itemprop="description" content="If you want to transist camera back to player seamlessly after or during level sequence, you can call SetViewTargetWithBlend to do that, with player as the new target. Just make sure you put the following settings right:
+    <meta itemprop="description" content="If you want to transit camera back to player seamlessly after or during level sequence, you can call SetViewTargetWithBlend to do that, with a player as new target. Just make sure you put the following settings right:
  Tracks of camera cuts and camera actor are set to keep state when finished, otherwise camera will roll back to initial state.
  If you are switching camera in level sequence (not after), make sure to crop length of camera cuts so that it ends earlier than SetViewTargetWithBlend.">
 	
@@ -263,16 +263,16 @@
           </div>
           <h1>Returning to Player Camera after Level Sequence Play</h1>
           <section id="post-content" class="article-content post">
-              <p>If you want to transist camera back to player seamlessly after or during level sequence, you can call SetViewTargetWithBlend to do that, with player as the new target. Just make sure you put the following settings right:</p>
+              <p>If you want to transit camera back to player seamlessly after or during level sequence, you can call SetViewTargetWithBlend to do that, with a player as new target. Just make sure you put the following settings right:</p>
 
 <ol>
 <li><p>Tracks of camera cuts and camera actor are set to keep state when finished, otherwise camera will roll back to initial state.</p></li>
 
-<li><p>If you are switching camera <strong>in level sequence</strong> (not after), make sure to crop length of camera cuts so that it ends earlier than SetViewTargetWithBlend. Camera cuts track has a higher priority than SetViewTargetWithBlend, if you don&rsquo;t do that, SetViewTargetWithBlend will not work.</p></li>
+<li><p>If you are switching camera <strong>in level sequence</strong> (not after), make sure to crop length of camera cuts so that it ends earlier than SetViewTargetWithBlend. Camera cuts track has a higher priority than SetViewTargetWithBlend, active camera cuts will suspend SetViewTargetWithBlend.</p></li>
 
 <li><p>Don&rsquo;t change view target&rsquo;s location or rotation during SetViewTargetWithBlend, that will cause SetViewTargetWithBlend to immediately use that new position or rotation.</p></li>
 
-<li><p>Similar if you enabled &ldquo;Camera Lag&rdquo; and &ldquo;Camera Rotation Lag&rdquo; in SpringArmComponent, make sure to give player camera enough time to arrive at new location or rotation before calling SetViewTargetWithBlend. Otherwise SpringArmComponent and SetViewTargetWithBlend will conflict with each other, cause camera to move back and forth.</p></li>
+<li><p>Similar if you enabled &ldquo;Camera Lag&rdquo; and &ldquo;Camera Rotation Lag&rdquo; on SpringArmComponent, make sure to give player camera enough time to arrive at new location or rotation before calling SetViewTargetWithBlend. Otherwise SpringArmComponent and SetViewTargetWithBlend will conflict with each other, cause camera to move back and forth.</p></li>
 </ol>
 
           </section>
