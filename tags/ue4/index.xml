@@ -17,7 +17,7 @@
       <pubDate>Tue, 12 Nov 2019 19:54:01 +0800</pubDate>
       
       <guid>https://litianqi.github.io/2019/11/12/returning-to-player-camera-after-level-sequence-play/</guid>
-      <description>If you want to transist camera back to player seamlessly after or during level sequence, you can call SetViewTargetWithBlend to do that, with player as the new target. But make sure you put the following settings right:
+      <description>If you want to transist camera back to player seamlessly after or during level sequence, you can call SetViewTargetWithBlend to do that, with player as the new target. Just make sure you put the following settings right:
  Tracks of camera cuts and camera actor are set to keep state when finished, otherwise camera will roll back to initial state.
  If you are switching camera in level sequence (not after), make sure to crop length of camera cuts so that it ends earlier than SetViewTargetWithBlend.</description>
     </item>
