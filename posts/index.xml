@@ -29,7 +29,7 @@
       
       <guid>https://litianqi.github.io/2019/11/04/ue4-learning-resources/</guid>
       <description> A collection of UE4 learning resources.
-Garbage Collection  Garbage Collection Overview - Epic Wiki Garbage Collection &amp;amp; Dynamic Memory Allocation - Epic Wiki  Reflection  Unreal Property System (Reflection) - Epic Blog  Collision  Collision Filtering - Epic Blog  Replication  &amp;lsquo;Unreal Engine 4&amp;rsquo; Network Compendium Replication - Epic Wiki A Crash Course in Blueprint Replication - Epic Blog Sequence Diagram of Networking inside the Character Movement Component class Authoritative Networked Character Movement Network Tips and Tricks - Epic Blog  Gameplay Ability System  Repo to gather all Gameplay Ability System content for UE4  UMG  UMG Best Practices - Epic Blog  Misc  Actor Lifecycle - Epic Documentation Logs, Printing Messages To Yourself During Runtime - Epic Wiki  </description>
+Garbage Collection  Garbage Collection Overview - Epic Wiki Garbage Collection &amp;amp; Dynamic Memory Allocation - Epic Wiki  Reflection  Unreal Property System (Reflection) - Epic Blog  Collision  Collision Filtering - Epic Blog  Replication  &amp;lsquo;Unreal Engine 4&amp;rsquo; Network Compendium Replication - Epic Wiki A Crash Course in Blueprint Replication - Epic Blog Sequence Diagram of Networking inside the Character Movement Component class Authoritative Networked Character Movement Network Tips and Tricks - Epic Blog  Gameplay Ability System  GASDocumentation  UMG  UMG Best Practices - Epic Blog  Misc  Actor Lifecycle - Epic Documentation Logs, Printing Messages To Yourself During Runtime - Epic Wiki  </description>
     </item>
     
     <item>
